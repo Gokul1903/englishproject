@@ -54,6 +54,9 @@ body{
 .font-size{
     font-weight: 600;
 }
+label{
+    font-weight: 1000;
+}
 .index{
     margin: 0px;
     padding: 0px;
