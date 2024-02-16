@@ -2,12 +2,13 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(./components/lig.jpg);
+    background-image: url(./components/bgcolor.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-color: white;
+
     
     
 }
