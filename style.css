@@ -63,6 +63,14 @@ label{
     padding: 0px;
     
 }
+img{
+    border-radius: 10px;
+    width: 800px;
+}
+iframe{
+    border-radius: 15px;
+
+}
 /* p{
     color: #eae4e4;
 } */
