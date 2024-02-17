@@ -2,8 +2,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(./components/bgcolor2.jpg);
-    /* background-image: url(./components/bgcolor.jpg); */
+    /* background-image: url(./components/bgcolor2.jpg); */
+    background-image: url(./components/bgcolor.jpg);
 
     background-size: cover;
     
@@ -72,6 +72,9 @@ img{
 iframe{
     border-radius: 15px;
 
+}
+.text{
+    color: #f3ededf5;
 }
 /* p{
     color: #eae4e4;
