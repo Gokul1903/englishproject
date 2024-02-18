@@ -63,6 +63,11 @@
 }
 .hh{
     font-weight: 600;
+    color: rgb(49, 47, 47);
+}
+.main,label,strong{
+    font-weight: 600;
+    color: rgba(170, 0, 255);
 }
 label{
     font-weight: 1000;
@@ -86,6 +91,18 @@ iframe{
 .text-hig{
     color: rgb(225, 2, 255);
 }
+li::marker {
+    color: rgba(170, 0, 255); /* Change 'red' to the color you desire */
+}
+
 /* p{
     color: #eae4e4;
 } */
+.img-zoom {
+    transition: transform 0.3s ease;
+    transform: scale(0.96); /* Initial size */
+
+  }
+.img-zoom:hover {
+    transform: scale(1);
+  }
