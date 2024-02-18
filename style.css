@@ -1,19 +1,26 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+.bg{
     /* background-image: url(./components/bgcolor2.jpg); */
-    background-image: url(./components/bgcolor.jpg);
+    /* background-image: url(./components/bgcolor.jpg); */
 
-    background-size: cover;
+    /* background-size: cover;
     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* background-attachment: fixed; */
-    background-color: white;
-
+    background-color: rgba(170, 0, 255, 0.852);
+    
     
     
 }
+.container{
+    background-color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 @media (max-width: 2660px) {
     .bg,body {
         background-size: 100% 100%; /* Adjust the background size for mobile */
@@ -55,6 +62,9 @@ body{
 }
 
 .font-size{
+    font-weight: 500;
+}
+.hh{
     font-weight: 600;
 }
 label{
@@ -74,7 +84,10 @@ iframe{
 
 }
 .text{
-    color: #f7f1f1f9;
+    color: black;
+}
+.text-hig{
+    color: rgb(225, 2, 255);
 }
 /* p{
     color: #eae4e4;
