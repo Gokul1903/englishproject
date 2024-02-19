@@ -107,4 +107,12 @@ li::marker {
 .img-zoom:hover,img:hover,iframe:hover,h1:hover,p:hover,li:hover,h5:hover,label:hover,a:hover{
     transform: scale(1);
 }
+.im{
+    transition: transform 0.3s ease;
+    transform: scale(0.98) rotate(0deg); /* Initial size */
+
+  }
+.im:hover{
+    transform: scale(1) rotate(23deg);
+}
 
