@@ -16,6 +16,7 @@
     background-color: white;
     padding-top: 0px;
     margin-top: 0px;
+
 }
 
 @media (max-width: 2660px) {
@@ -98,11 +99,12 @@ li::marker {
 /* p{
     color: #eae4e4;
 } */
-.img-zoom {
+.img-zoom,img,iframe,h1,p,li,h5,label,a {
     transition: transform 0.3s ease;
-    transform: scale(0.96); /* Initial size */
+    transform: scale(0.98); /* Initial size */
 
   }
-.img-zoom:hover {
+.img-zoom:hover,img:hover,iframe:hover,h1:hover,p:hover,li:hover,h5:hover,label:hover,a:hover{
     transform: scale(1);
 }
+
