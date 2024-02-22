@@ -119,10 +119,10 @@ li::marker {
 .doyouknow{
     position: fixed;
     width: 70px;
-    top: 89%;
-    left: 75%;
+    top: 85%;
+    left: 77%;
 }
-@media (max-width: 775px) {
+/* @media (max-width: 775px) {
     .doyouknow {
     position: fixed;
     width: 70px;
@@ -131,7 +131,7 @@ li::marker {
     }
     
     
-}
+} */
 .overlay{
     background-color: black;
     width: 100%;

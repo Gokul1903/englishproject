@@ -15,6 +15,7 @@
 
 </head>
 <body class="text">
+    <div class="overlay" id="overlay"></div>
     <nav class="navbar navbar-expand-lg bg-white py-3 text-uppercase sticky-top shadow-lg">
         <div class="container">
             <a class=" navbar-brand fs-2 " style="color: rgb(172 0 255);" href="../index.html"><img src="../components/logo.png" alt="" style="width: 45px;" class="img-fluid im rounded-circle">perture</a>
@@ -229,12 +230,26 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <img class="doyouknow img-fluid im rounded-circle" id="vikramsarabhai" src="../components/doyouknow.png" >
+              <img class="doyouknow img-fluid im rounded-circle" onclick="showoverlay()" id="vikramsarabhai" src="../components/doyouknow.png" >
             </div>
           </div>
         </div>
       </section>
-
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="overlay-content" id="overlay-content">
+                <div class="know-img-div text-center py-3"><img src="../components/doyouknoww.png" class="know-img img-fluid pr-2" alt=""></div>
+                <p class="fs-4 py-4 px-4 hh ">
+                    In addition to being a science enthusiast, Vikram Sarabhai also profoundly loved the arts. He got married to the renowned classical dancer Mrinalini Sarabhai. Together, the couple founded the Darpana Academy of Performing Arts, in honor of a wide range of Indian art forms and styles.
+                  </p>
+                  <div class="text-center img-zoom" onclick="clear_btn()"><button class="clear-btn">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <hr style="margin: 0px;">
     <footer >
       <div class="container ">
