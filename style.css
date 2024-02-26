@@ -189,6 +189,10 @@ li::marker {
     font-weight: 600;
     margin: 0px 0px 30px ;
 }
+.clear-btn:hover{
+    background-color: rgb(199, 113, 217);
+
+}
 
 .know-img{
     width: 300px;
